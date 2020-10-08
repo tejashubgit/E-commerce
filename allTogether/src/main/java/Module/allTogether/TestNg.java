@@ -10,11 +10,12 @@ public class TestNg {
 	
 	static WebDriver driver;
 	
-	public static void  main (String[] args)
+	public static void main  (String[] args)
 	{
 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\chromedriver.exe");
+
 		 driver =new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
@@ -50,6 +51,7 @@ public class TestNg {
 		//add to cart
 		
 		driver.findElement(By.xpath("//*[@id=\"add_to_cart\"]/button/span")).click();
+		
 	
    
 	}}
