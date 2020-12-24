@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7593" started-at="2020-10-01T12:05:15Z" finished-at="2020-10-01T12:05:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7593" started-at="2020-10-01T12:05:15Z" finished-at="2020-10-01T12:05:22Z">
+      <class name="EndToEndPRoject.PracticeDemo">
+        <test-method status="FAIL" signature="initialise()[pri:0, instance:EndToEndPRoject.PracticeDemo@724af044]" name="initialise" duration-ms="7557" started-at="2020-10-01T17:35:15Z" finished-at="2020-10-01T17:35:22Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a _ngcontent-yxq-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (939, 27). Other element would receive the click: <div _ngcontent-yxq-c18="" class="preloader">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-AHN7MSQ', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e9719df4e081c89c3c36c2f5b40c3a86]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-yxq-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (939, 27). Other element would receive the click: <div _ngcontent-yxq-c18="" class="preloader">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-AHN7MSQ', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e9719df4e081c89c3c36c2f5b40c3a86
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at EndToEndPRoject.PracticeDemo.initialise(PracticeDemo.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+      </class> <!-- EndToEndPRoject.PracticeDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

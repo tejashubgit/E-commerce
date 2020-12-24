@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36981" started-at="2020-10-08T13:13:11Z" finished-at="2020-10-08T13:13:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36981" started-at="2020-10-08T13:13:11Z" finished-at="2020-10-08T13:13:48Z">
+      <class name="Module.allTogether.EnabledDisplayed">
+        <test-method status="PASS" signature="displayed()[pri:0, instance:Module.allTogether.EnabledDisplayed@4cc0edeb]" name="displayed" duration-ms="8997" started-at="2020-10-08T18:43:11Z" finished-at="2020-10-08T18:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayed -->
+        <test-method status="PASS" signature="enabled()[pri:0, instance:Module.allTogether.EnabledDisplayed@4cc0edeb]" name="enabled" duration-ms="9392" started-at="2020-10-08T18:43:20Z" finished-at="2020-10-08T18:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enabled -->
+        <test-method status="PASS" signature="isselected()[pri:0, instance:Module.allTogether.EnabledDisplayed@4cc0edeb]" name="isselected" duration-ms="18561" started-at="2020-10-08T18:43:29Z" finished-at="2020-10-08T18:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isselected -->
+      </class> <!-- Module.allTogether.EnabledDisplayed -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
